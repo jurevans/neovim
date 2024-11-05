@@ -38,6 +38,8 @@ map("n", "<C-Up>", "<C-w>+")
 map("n", "<C-Down>", "<C-w>-")
 map("n", "<Esc>", "<CMD>noh<CR>")
 
+map("n", "<leader>gg", "<CMD>LazyGit<CR>")
+
 -- Tree-Sitter LSP diagnostics
 set("n", "<leader>ld", vim.diagnostic.open_float)
 set("n", "<leader>lp", vim.diagnostic.goto_prev)
