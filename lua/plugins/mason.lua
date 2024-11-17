@@ -18,6 +18,7 @@ return {
 				"perlnavigator",
 				"tailwindcss",
 				"gopls",
+				"clangd",
 			},
 		})
 
