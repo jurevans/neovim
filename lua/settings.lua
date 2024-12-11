@@ -31,6 +31,8 @@ o.completeopt = { "menuone", "noselect", "noinsert" }
 o.shortmess = o.shortmess + { c = true }
 a.nvim_set_option("updatetime", 300)
 
+global.transparent_enabled = true
+
 vim.cmd([[
 set signcolumn=yes
 autocmd CursorHold * lua vim.diagnostic.open_float(nil, { focusable = false })
