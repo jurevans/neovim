@@ -16,6 +16,7 @@ map("i", "jk", "<ESC>")
 -- NeoTree
 map("n", "<leader>e", "<CMD>Neotree toggle<CR>")
 map("n", "<leader>r", "<CMD>Neotree focus<CR>")
+map("n", "<C-n>", "<CMD>Neotree filesystem reveal left<CR>")
 
 -- New Windows
 map("n", "<leader>v", "<CMD>vsplit<CR>")
