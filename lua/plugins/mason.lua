@@ -19,6 +19,7 @@ return {
 				"tailwindcss",
 				"gopls",
 				"clangd",
+				"ts_ls",
 			},
 		})
 
@@ -29,7 +30,6 @@ return {
 				"isort", -- python formatter
 				"black", -- python formatter
 				"pylint",
-				"eslint_d",
 			},
 		})
 	end,
